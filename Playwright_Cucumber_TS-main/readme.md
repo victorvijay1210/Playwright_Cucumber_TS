@@ -5,13 +5,12 @@ TypeScript is a powerful superset of JavaScript that adds optional static typing
 
 ## Features
 
-1. Awesome report with screenshots, videos & logs
+1. Awesome report with videos & logs
 2. Execute tests on multiple environments 
 3. Parallel execution
 4. Rerun only failed features
 5. Retry failed tests on CI
-6. Github Actions integrated with downloadable report
-7. Page object model
+6. Page object model
 
 ## Sample report
 ![image](https://github.com/ortoniKC/Playwright_Cucumber_TS/assets/58769833/da2d9f5a-85e7-4695-8ce2-3378b692afc4)
@@ -47,10 +46,6 @@ TypeScript is a powerful superset of JavaScript that adds optional static typing
             "src/test/features/featurename.feature"
          ] 
 ```
-7. Use tags to run a specific or collection of specs
-```
-npm run test --TAGS="@test or @add"
-```
 
 ### Folder structure
 0. `src\pages` -> All the page (UI screen)
@@ -66,6 +61,3 @@ npm run test --TAGS="@test or @add"
 10. `src\helper\auth` -> Storage state (Auth file)
 11. `src\helper\util` -> Read test data from json & logger
 
-## Tutorials
-1. Learn Playwright - [Playwright - TS](https://youtube.com/playlist?list=PL699Xf-_ilW7EyC6lMuU4jelKemmS6KgD)
-2. BDD in detail - [TS binding](https://youtube.com/playlist?list=PL699Xf-_ilW6KgK-S1l9ynOnBGiZl2Bsk)
